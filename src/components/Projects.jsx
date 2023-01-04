@@ -1,6 +1,6 @@
 import React from 'react'
 import SectionHeading from './SectionHeading'
-import Project from './project'
+import Project from './Project'
 import personalProjects from '../data/projects'
 import GridLayout from './GridLayout'
 const Projects = () => {
