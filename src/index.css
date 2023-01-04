@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #5bd0f6;
+    scrollbar-track-color: #5a606b;
+  }
+  *::-webkit-scrollbar {
+    width: 8px;
+    background-color: #1e1e20;
+  }
+  *::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(
+      to bottom ,
+      #9fe2f9,
+      #006eff
+    ) !important;
+    border-radius: 14px;
+  }
+
+  html {
+    font-family: "Raleway", sans-serif;
+  }
+}
+
+@layer components {
+  .section {
+    @apply flex flex-col  w-full h-full max-w-screen-lg px-10 mx-auto py-4;
+  }
+  .form-input {
+    @apply pt-[0.65rem] pb-[0.4rem] pl-10 bg-transparent border-2 rounded-md border-gray-400 placeholder:text-gray-500 text-gray-500 focus:outline-none w-full focus:text-white focus:border-white;
+  }
+}
