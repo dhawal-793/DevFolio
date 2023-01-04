@@ -8,7 +8,7 @@ const Home = () => {
 
     return (
         <div name='Home' className=' outline-blue-500 h-screen min-h-[80vh] w-full bg-gradient-to-b from-black via-black to-gray-800 '>
-            <div className='section justify-between items-center md:flex-row'>
+            <div className='section gap-28 md:gap-1 md:justify-between items-center md:flex-row'>
 
                 <div className='flex flex-col gap-3 justify-center text-gray-200 w-max md:w-3/5'>
                     <h2 className=' text-6xl lg:text-7xl font-bold '>Hi There,</h2>
