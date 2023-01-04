@@ -341,7 +341,7 @@ const skills = [
     // },
     // {
     //     id: 23,
-    //     // icon: "devicon-linode-plain colored text-green-800",
+    //     // icon: "devicon-vs-code-plain colored text-green-800",
     //     icon: <SiVisualstudiocode size={30} className="text-[#0099ff] z-20" />,
     //     name: "VS Code",
     //     style: {

@@ -33,7 +33,7 @@
 
 @layer components {
   .section {
-    @apply flex flex-col  w-full h-full max-w-screen-lg px-10 mx-auto py-4;
+    @apply flex flex-col  w-full h-full max-w-screen-lg px-10 md:px-16 mx-auto py-4;
   }
   .form-input {
     @apply pt-[0.65rem] pb-[0.4rem] pl-10 bg-transparent border-2 rounded-md border-gray-400 placeholder:text-gray-500 text-gray-500 focus:outline-none w-full focus:text-white focus:border-white;

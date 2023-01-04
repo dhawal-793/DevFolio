@@ -6,7 +6,6 @@ const contactInfo = [
         name: "LinkedIn",
         link: "https://www.linkedin.com/in/dhawal-vijayvargiya-188683214/",
         icon: <FaLinkedin size={17} />,
-        // style: "rounded-tr-md",
         style: "hover:text-white hover:bg-[#0A66C2]"
     },
     {
@@ -20,7 +19,7 @@ const contactInfo = [
     {
         id: 3,
         name: "Mail",
-        link: "mailto:vijaydhawal9000@gmail.com",
+        link: "mailto:vijaydhawal9001@gmail.com",
         icon: <HiOutlineMail size={17} />,
         style: "hover:bg-white hover:text-[#EB4334]"
 

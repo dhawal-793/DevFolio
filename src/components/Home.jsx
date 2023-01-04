@@ -4,16 +4,16 @@ import { Link } from 'react-scroll';
 import { MdKeyboardArrowRight } from "../data/icons";
 import Avatar from "../assets/Avatars/Avatar.svg"
 const Home = () => {
-    const work = ['Frontend Development', 3000, 'Backend Development', 3000, 'UI/UX Design', 3000]
+    const work = ['Frontend Development', 2000, 'Backend Development',2000,'Android Development',2000, 'Web Designing', 2000, 'UI/UX Designing', 2000]
 
     return (
         <div name='Home' className=' outline-blue-500 h-screen min-h-[80vh] w-full bg-gradient-to-b from-black via-black to-gray-800 '>
-            <div className='section justify-between items-center md:flex-row '>
+            <div className='section justify-between items-center md:flex-row'>
 
                 <div className='flex flex-col gap-3 justify-center text-gray-200 w-max md:w-3/5'>
                     <h2 className=' text-6xl lg:text-7xl font-bold '>Hi There,</h2>
                     <h2 className=' text-6xl lg:text-7xl font-bold '>I'm <span className='text-transparent bg-gradient-to-br from-cyan-300 to-blue-600 bg-clip-text'> Dhawal </span></h2>
-                    <p className='text-gray-400 text-xl font-semibold py-4 max-w-[24rem]'>
+                    <p className='text-gray-400 text-2xl font-semibold py-4 min-w-[25rem] max-w-[26rem]'>
                         I am into 
 
                         <span className='text-cyan-400 pl-2'>
