@@ -1,4 +1,4 @@
-import LinkedIn, { GitHub, GMail, Telegram, Person } from "../components/Icons";
+import LinkedIn, { GitHub, GMail, Telegram, Resume } from "../components/Icons";
 // import {  Discord, Twitter } from "../components/Icons";
 const contactInfo = [
     {
@@ -30,7 +30,7 @@ const contactInfo = [
         id: 5,
         name: "Resume",
         link: "/resume.pdf",
-        icon: <Person />,
+        icon: <Resume />,
         download: true
     }
     // {
