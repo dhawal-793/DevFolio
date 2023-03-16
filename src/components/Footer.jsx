@@ -6,23 +6,25 @@ import contactInfo from '../data/contactInfo'
 const Footer = () => {
     const year = new Date().getFullYear().toString()
     return (
-        <div className='bg-gradient-to-t from-gray-500 to-black w-full text-white'>
+        <div className='bg-gradient-to-t from-gray-500 via-black to-black  w-full  text-gray-300'>
             <div className="section pb-5">
                 <div className="flex flex-wrap justify-between ">
-                    <div className="w-1/2 sm:w-3/5 md:w-1/3 pr-2">
-                        <h3 className='text-3xl font-bold pb-2'>Dhawal Vijayvargiya</h3>
+                    <div className="w-full sm:w-3/5 lg:w-2/5 pr-2">
+                        <h3 className='text-white text-[1.75rem] font-bold pb-2'>Dhawal Vijayvargiya</h3>
                         <p className='text-lg text-cyan-400 pb-5'>FullStack Developer</p>
-                        <p className='text-gray-300'>Thank you for visiting my personal portfolio website. Connect with me over socials</p>
+                        <p>Thank you for visiting my Personal Portfolio.</p>
+                        <p>Lets connect over socials.</p>
+                        <p>Open to any Feedback</p>
                     </div>
-                    <div className="w-1/2 sm:w-2/5 md:w-auto lg:w-1/3 pl-16 md:pl-5 lg:pl-[5.5rem] justify-start">
-                        <h3 className=' text-2xl font-bold pb-4'>Quick Links</h3>
+                    <div className="w-full xs:w-2/5 mt-8 sm:w-2/5 sm:mt-0 lg:w-[30%] sm:pl-20 lg:pl-12 justify-start">
+                        <h3 className='text-white text-[1.35rem] xs:text-2xl font-bold pb-4'>Quick Links</h3>
                         {navLinks.map(({ link, id }) => {
                             return (
                                 <div key={id} className="group w-fit px-3">
                                     <Link href={link} >
                                         <div className="flex items-center justify-between w-fit gap-2 font-semibold text-white cursor-pointer">
                                             <ArrowRightLong />
-                                            <span className='bg-clip-text bg-gradient-to-r from-cyan-500 via-cyan-500 to-blue-500 group-hover:text-transparent duration-500 '>
+                                            <span className='bg-clip-text bg-gradient-to-r from-cyan-500 via-cyan-500 to-blue-500 group-hover:text-transparent duration-500 group-hover:animate-pulse '>
                                                 {link}
                                             </span>
                                         </div>
@@ -31,20 +33,20 @@ const Footer = () => {
                             )
                         })}
                     </div>
-                    <div className="w-full mt-8 md:mt-0 md:w-fit lg:w-1/3 md:pl-8 lg:pl-0">
-                        <h3 className='text-2xl font-bold'>Contact info</h3>
-                        <div className="flex flex-col sm:flex-row md:flex-col py-3 gap-5 md:gap-10 justify-between">
+                    <div className="w-full mt-8 xs:w-3/5 sm:w-full lg:mt-0 lg:w-[30%] lg:pl-0">
+                        <h3 className='text-white text-2xl font-bold pb-4'>Contact info</h3>
+                        <div className="flex flex-col sm:flex-row lg:flex-col  gap-5 xs:gap-10 sm:gap-5 md:gap-10 justify-between">
                             <div className='text-[0.9rem] font-advanced'>
                                 <p className='flex items-center gap-3 mb-1'>
                                     <GMail /> vijaydhawal9001@gmail.com</p>
                                 <p className='flex items-center gap-3 '> <Map /><span className="pt-1">Udaipur, Rajasthan, India</span></p>
                             </div>
-                            <ul className="flex items-center  gap-5 md:gap-2 lg:gap-4 justify-start ">
+                            <ul className="flex items-center  gap-5 md:gap-8 lg:gap-4 justify-start ">
                                 {contactInfo.map(({ id, link, name, icon, download }) => {
                                     return (
-                                        <li key={id} link={link} className={`group relative w-8 h-8 flex justify-center items-center rounded-full p-1 sm:grayscale  cursor-pointer duration-[450ms] transition ease-in hover:grayscale-0 hover:scale-105`}>
+                                        <li key={id} link={link} className={`group relative w-8 h-8 flex justify-center items-center rounded-full p-1 sm:grayscale  cursor-pointer duration-[450ms] transition ease-in hover:grayscale-0 hover:scale-105 focus:grayscale-0 focus:scale-105 active:grayscale-0 active:scale-105`}>
                                             <a href={link} download={download} target="_blank" rel='noferrer'>{icon}</a>
-                                            <div className="flex scale-0 group-hover:scale-100 transition ease-out duration-300 delay-100 origin-center justify-center items-center absolute -bottom-10 w-auto h-6 py-2 px-3 bg-gray-900 text-sm text-gray-300">
+                                            <div className="flex scale-0 sm:group-hover:scale-100 group-focus:scale-100 transition ease-out duration-300 delay-100 origin-center justify-center items-center absolute -bottom-10 w-auto h-6 py-2 px-3 bg-gray-900 text-sm text-gray-300">
                                                 {name}
                                             </div>
                                         </li>
@@ -59,7 +61,7 @@ const Footer = () => {
             <div className="section py-2 text-black font-advanced">
                 <div className="">
                     <h4 className=' text-sm text-gray-300 flex justify-center items-center  '>
-                        <CopyRight /> <span className="px-1 text-cyan-400 opacity-90 font-bold"> Dhawal Vijayvargiya  </span> {year} | All Rights Reserved</h4>
+                        <span className="px-1 pb-[0.2rem]">  <CopyRight /></span> {`2022- ${year}`} | All Rights Reserved</h4>
                 </div>
             </div>
         </div >
