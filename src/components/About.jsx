@@ -1,6 +1,6 @@
 
 import React from 'react'
-import { MdKeyboardArrowRight } from 'react-icons/md';
+import { Download } from './Icons';
 import resume from "../assets/resume.pdf"
 import profile from "../assets/profile.jpg"
 import SectionHeading from './SectionHeading';
@@ -36,7 +36,7 @@ const About = () => {
                                             <span>
                                                 {icon}
                                             </span>
-                                            <div className="flex scale-0 group-hover:scale-100 group-focus:scale-100 transition ease-out duration-300 delay-100 origin-center justify-center items-center absolute -bottom-10 left-1/2 -translate-x-1/2 w-auto h-6 py-2 px-3 bg-gray-900 text-sm text-gray-300">
+                                            <div className="flex scale-0 sm:group-hover:scale-100 group-focus:scale-100 transition ease-out duration-300 delay-100 origin-center justify-center items-center absolute -bottom-10 left-1/2 -translate-x-1/2 w-auto h-6 py-2 px-3 bg-gray-900 text-sm text-gray-300">
                                                 {name}
                                             </div>
                                         </li>
@@ -46,10 +46,10 @@ const About = () => {
                         </ul>
                     </div>
                     <div className='py-5'>
-                        <a href={resume} target="_blank" rel="noreferrer" download={true} className='group bg-gradient-to-br from-cyan-400 to-blue-600 flex items-center px-6 py-3 pl-8 rounded-lg ease-in duration-500 cursor-pointer w-fit'>
-                            Resume
-                            <span className="group-hover:rotate-90 duration-500 ml-2">
-                                <MdKeyboardArrowRight size={25} />
+                        <a href={resume} target="_blank" rel="noreferrer" download={true} className='group bg-gradient-to-br from-cyan-400 to-blue-600 flex items-center justify-center gap-3 px-6 py-3  rounded-lg ease-linear duration-300 delay-75 transition-all cursor-pointer w-36 relative'>
+                            <span className='pr-6 sm:pr-0 sm:group-hover:-translate-x-3 sm:transition-transform delay-[400ms] ease-out'>Resume</span>
+                            <span className="absolute right-5 sm:scale-0 transition-all group-hover:scale-100 ease-in delay-200 animate-pulse duration-500 ">
+                                <Download/>
                             </span>
                         </a>
                     </div>
