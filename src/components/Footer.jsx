@@ -6,7 +6,7 @@ import contactInfo from '../data/contactInfo'
 const Footer = () => {
     const year = new Date().getFullYear().toString()
     return (
-        <div className='bg-gradient-to-t from-gray-500 to-black w-full  text-gray-300'>
+        <div className='bg-gradient-to-t from-gray-500 via-black to-black  w-full  text-gray-300'>
             <div className="section pb-5">
                 <div className="flex flex-wrap justify-between ">
                     <div className="w-full sm:w-3/5 lg:w-2/5 pr-2">
@@ -24,7 +24,7 @@ const Footer = () => {
                                     <Link href={link} >
                                         <div className="flex items-center justify-between w-fit gap-2 font-semibold text-white cursor-pointer">
                                             <ArrowRightLong />
-                                            <span className='bg-clip-text bg-gradient-to-r from-cyan-500 via-cyan-500 to-blue-500 group-hover:text-transparent duration-500 '>
+                                            <span className='bg-clip-text bg-gradient-to-r from-cyan-500 via-cyan-500 to-blue-500 group-hover:text-transparent duration-500 group-hover:animate-pulse '>
                                                 {link}
                                             </span>
                                         </div>
@@ -46,7 +46,7 @@ const Footer = () => {
                                     return (
                                         <li key={id} link={link} className={`group relative w-8 h-8 flex justify-center items-center rounded-full p-1 sm:grayscale  cursor-pointer duration-[450ms] transition ease-in hover:grayscale-0 hover:scale-105 focus:grayscale-0 focus:scale-105 active:grayscale-0 active:scale-105`}>
                                             <a href={link} download={download} target="_blank" rel='noferrer'>{icon}</a>
-                                            <div className="flex scale-0 group-hover:scale-100 group-focus:scale-100 transition ease-out duration-300 delay-100 origin-center justify-center items-center absolute -bottom-10 w-auto h-6 py-2 px-3 bg-gray-900 text-sm text-gray-300">
+                                            <div className="flex scale-0 sm:group-hover:scale-100 group-focus:scale-100 transition ease-out duration-300 delay-100 origin-center justify-center items-center absolute -bottom-10 w-auto h-6 py-2 px-3 bg-gray-900 text-sm text-gray-300">
                                                 {name}
                                             </div>
                                         </li>
