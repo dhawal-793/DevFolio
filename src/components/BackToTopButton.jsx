@@ -9,7 +9,7 @@ const BackToTopButton = () => {
     }
     useEffect(() => {
         const toggleVisiblity = () => {
-            window.pageYOffset >250 ? setBtnVisiblity(true) : setBtnVisiblity(false);
+            window.pageYOffset > 250 ? setBtnVisiblity(true) : setBtnVisiblity(false);
         }
         window.addEventListener('scroll', toggleVisiblity);
         return () => {
@@ -19,16 +19,11 @@ const BackToTopButton = () => {
 
 
     return (
-        <>
-
-            {btnVisiblity &&
-                <Link onClick={handleScroll} to="Home" smooth duration={500} className='' >
-                    <div className=' z-[60] fixed bottom-[1.3rem] right-[1.3rem] md:bottom-4 md:right-4 w-8 h-8 flex justify-center items-center rounded-full bg-gradient-to-br from-blue-500 to-cyan-500 cursor-pointer hover:scale-105 duration-500 text-white'>
-                        <ArrowUp />
-                    </div>
-                </Link>
-            }
-        </>
+        <Link onClick={handleScroll} to="Home" smooth duration={500} className='' >
+            <div className={`-translate-y-[100vh] transition-all delay-100 ${btnVisiblity && "translate-y-0"} z-[60] fixed bottom-[1.3rem] right-[1.3rem] md:bottom-4 md:right-4 w-8 h-8 flex justify-center items-center rounded-full bg-gradient-to-br from-blue-500 to-cyan-500 cursor-pointer  hover:scale-[1.08] duration-500 text-white`}>
+                <ArrowUp />
+            </div>
+        </Link>
     )
 }
 
