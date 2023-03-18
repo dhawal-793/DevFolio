@@ -1,16 +1,29 @@
 import React from 'react'
-import { FaBars, FaHamburger, RxCross1 } from "../data/icons";
-const HamBurgerMenu = ({handleClick ,navOpen}) => {
+import { Hamburger, Menu, Cancel } from './Icons';
+const HamBurgerMenu = ({ handleClick, navOpen }) => {
     return (
 
-        <div className='group md:hidden z-50 cursor-pointer text-gray-500 hover:scale-110 hover:text-gray-300 ease-in-out duration-200'
+        <div className='group md:hidden z-50 cursor-pointer text-gray-500 hover:scale-110 hover:text-gray-300 ease-in-out transition-all duration-300'
             onClick={handleClick}
         >
-            {navOpen && <RxCross1 size={25} className="hover:text-red-500" />}
+            {navOpen &&
+                <div className='group'>
+                    <span className="group-hover:hidden ">
+                        <Cancel color="#6B7280" />
+                    </span>
+                    <span className="hidden group-hover:block">
+                        <Cancel color="#EF4444" />
+                    </span>
+                </div>
+            }
             {!navOpen &&
                 <div>
-                    <FaBars size={25} className="group-hover:hidden" />
-                    <FaHamburger size={25} className="hidden group-hover:block" />
+                    <span className="group-hover:hidden ">
+                        <Menu />
+                    </span>
+                    <span className="hidden transition-all delay-75 group-hover:block">
+                        <Hamburger />
+                    </span>
                 </div>
             }
         </div>
