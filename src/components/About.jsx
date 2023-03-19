@@ -10,7 +10,7 @@ import techStack from '../data/techStack';
 const About = () => {
     return (
         <div name='About' className=' pt-8 h-full min-h-screen w-full flex items-center  bg-gradient-to-b to-black via-black from-gray-800 '>
-            <div className='py-20 section justify-between'>
+            <div className='section justify-between'>
                 <SectionHeading heading="About Me" />
                 <div className='mb-10  flex flex-col justify-center '>
                     <img src={profile} alt="" className='cursor-pointer grayscale hover:grayscale-0 hover:scale-[1.02] transition-all delay-75 border-4 border-transparent hover:border-white duration-300 rounded-2xl w-1/2 mx-auto  md:w-[270px]' />
