@@ -9,18 +9,11 @@ const isBetween = (length, min, max) => length < min || length > max ? false : t
 const checkName = (name) => {
     const min = 3, max = 25;
     if (!isRequired(name))
-<<<<<<< HEAD
         return 'Name cannot be blank.'
     else if (!isBetween(name.length, min, max))
         return `Name must be between ${min} and ${max} characters.`
-=======
-        return 'Username cannot be blank.'
-    else if (!isBetween(name.length, min, max))
-        return `Username must be between ${min} and ${max} characters.`
->>>>>>> b4203a08f3c75198ed9d4101280cd4095caa1bba
     return true
 }
-
 const checkEmail = (email) => {
     if (!isRequired(email))
         return 'Email cannot be blank.'
@@ -39,7 +32,7 @@ const checkMessage = (message) => {
 }
 
 
-const validateForm = (formData,setFormData,setErrData,initialFormData,initialErrData) => {
+const validateForm = (formData, setFormData, setErrData, initialFormData, initialErrData) => {
     const validName = checkName(formData.name.trim());
     const validEmail = checkEmail(formData.email.trim());
     const validMessage = checkMessage(formData.message.trim());
