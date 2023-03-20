@@ -14,7 +14,6 @@ const checkName = (name) => {
         return `Name must be between ${min} and ${max} characters.`
     return true
 }
-
 const checkEmail = (email) => {
     if (!isRequired(email))
         return 'Email cannot be blank.'
@@ -33,7 +32,7 @@ const checkMessage = (message) => {
 }
 
 
-const validateForm = (formData,setFormData,setErrData,initialFormData,initialErrData) => {
+const validateForm = (formData, setFormData, setErrData, initialFormData, initialErrData) => {
     const validName = checkName(formData.name.trim());
     const validEmail = checkEmail(formData.email.trim());
     const validMessage = checkMessage(formData.message.trim());
