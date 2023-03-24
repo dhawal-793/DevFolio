@@ -33,7 +33,7 @@ const About = () => {
                                 techStack.map(({ id, icon, name }) => {
                                     return (
                                         <li key={id} className=" relative list-none group">
-                                            <span>
+                                            <span className='z-20'>
                                                 {icon}
                                             </span>
                                             <div className="flex scale-0 sm:group-hover:scale-100 group-focus:scale-100 transition ease-out duration-300 delay-100 origin-center justify-center items-center absolute z-50 -bottom-10 left-1/2 -translate-x-1/2 w-auto h-6 py-2 px-3 bg-gray-900 text-sm text-gray-300">
