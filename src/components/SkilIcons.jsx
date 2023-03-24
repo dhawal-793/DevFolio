@@ -33,7 +33,7 @@ const NextJs = ({ width = 35, height1 = 35 ,height2=20}) => {
         </div>
     )
 }
-const HTML = ({ width = 40, height = 45 }) => {
+const HTML = ({ width = 35, height = 45 }) => {
     return (
         <>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108.35 122.88" width={width} height={height}>
