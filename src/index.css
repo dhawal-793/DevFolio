@@ -12,6 +12,7 @@
     scrollbar-width: thin;
     scrollbar-color: #5bd0f6;
     scrollbar-track-color: #5a606b;
+    --xposition:calc(100vw - 28px);
   }
   *::-webkit-scrollbar {
     width: 8px;
@@ -28,6 +29,9 @@
 
   html {
     font-family: "Raleway", sans-serif;
+  }
+  .animate-menu{
+    transform-origin: var(--xposition) 38px;
   }
 }
 
