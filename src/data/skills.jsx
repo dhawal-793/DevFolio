@@ -1,5 +1,5 @@
 
-import ReactJs, { Bash, Bootstrap, C, CPlusPlus, CSharp, CSS, Doker, ExpressJS, FireBase, Git, GitHub, Heroku, HTML, Java, JQuery, JS, Kotlin, Kubernets, MaterialUI, MongoDB, MySQL, NextJs, NodeJS, PHP, PostGreSql, PostMan, Python, Redis, Redux, SASS, TailwindCSS, TS, VSCode } from "../components/SkilIcons";
+import ReactJs, { Bash, Bootstrap, C, CPlusPlus, CSharp, CSS, Doker, DotNet, ExpressJS, FireBase, Git, GitHub, Heroku, HTML, Java, JQuery, JS, Kotlin, Kubernets, MaterialUI, MongoDB, MySQL, NextJs, NodeJS, PHP, PostGreSql, PostMan, Python, Redis, Redux, SASS, TailwindCSS, TS, VSCode } from "../components/SkilIcons";
 
 
 const skills = [
@@ -113,29 +113,29 @@ const skills = [
         icon: <Bootstrap />,
         name: "Bootstrap",
         style: {
-            shadow: "shadow-[#59407F]",
-            cover: "from-black to-[#59407F] rounded-b-md",
+            shadow: "shadow-[#6610F2]",
+            cover: "from-black to-[#6610F2] rounded-b-md",
             opacity: "opacity-80"
         }
     },
-    // {
-    //     id: 12,
-    //     icon: <SASS />,
-    //     name: "SASS",
-    //     style: {
-    //         shadow: "shadow-[#CC6699]",
-    //         cover: "from-black to-[#CC6699] rounded-b-md",
-    //         opacity: "opacity-80"
+    {
+        id: 12,
+        icon: <SASS />,
+        name: "SASS",
+        style: {
+            shadow: "shadow-[#CC6699]",
+            cover: "from-black to-[#CC6699] rounded-b-md",
+            opacity: "opacity-80"
 
-    //     }
-    // },
+        }
+    },
     {
         id: 13,
         icon: <MaterialUI />,
         name: "MaterialUI",
         style: {
-            shadow: "shadow-[#1FA6CA]",
-            cover: "from-black to-[#1FA6CA] rounded-b-md",
+            shadow: "shadow-[#1266A9]",
+            cover: "from-black to-[#1266A9] rounded-b-md",
             opacity: "opacity-80"
 
         }
@@ -151,17 +151,17 @@ const skills = [
 
         }
     },
-    // {
-    //     id: 15,
-    //     icon: <FireBase />,
-    //     name: "Firebase",
-    //     style: {
-    //         shadow: "shadow-[#d49a35]",
-    //         cover: "from-black to-[#d49a35] rounded-b-md",
-    //         opacity: "opacity-80"
+    {
+        id: 15,
+        icon: <FireBase />,
+        name: "Firebase",
+        style: {
+            shadow: "shadow-[#d49a35]",
+            cover: "from-black to-[#d49a35] rounded-b-md",
+            opacity: "opacity-80"
 
-    //     }
-    // },
+        }
+    },
     {
         id: 16,
         icon: <Git />,
@@ -198,8 +198,8 @@ const skills = [
         icon: <CPlusPlus />,
         name: "C++",
         style: {
-            shadow: "shadow-[#b62c5f]",
-            cover: "from-black to-[#b62c5f] rounded-b-md",
+            shadow: "shadow-[#004482]",
+            cover: "from-black to-[#004482] rounded-b-md",
             opacity: "opacity-80"
         }
     },
@@ -219,8 +219,8 @@ const skills = [
         icon: <Java />,
         name: "Java",
         style: {
-            shadow: "shadow-[#d19040]",
-            cover: "from-black to-[#d19040] rounded-b-md",
+            shadow: "shadow-[#E76F00]",
+            cover: "from-black to-[#E76F00] rounded-b-md",
             opacity: "opacity-80"
 
         }
@@ -230,8 +230,8 @@ const skills = [
         icon: <C />,
         name: "C",
         style: {
-            shadow: "shadow-[#2b7ab5]",
-            cover: "from-black to-[#2b7ab5] rounded-b-md",
+            shadow: "shadow-[#3949AB]",
+            cover: "from-black to-[#3949AB] rounded-b-md",
             opacity: "opacity-80"
 
         }
@@ -241,8 +241,8 @@ const skills = [
     //     icon: <Kotlin />,
     //     name: "Kotlin",
     //     style: {
-    //         shadow: "shadow-[#C5599F]",
-    //         cover: "from-black to-[#C5599F] rounded-b-md",
+    //         shadow: "shadow-[#B14F97]",
+    //         cover: "from-black to-[#B14F97] rounded-b-md",
     //         opacity: "opacity-80"
 
     //     }
@@ -252,8 +252,8 @@ const skills = [
     //     icon: <CSharp />,
     //     name: "C#",
     //     style: {
-    //         shadow: "shadow-[#1D95E5]",
-    //         cover: "from-black to-[#1D95E5] rounded-b-md",
+    //         shadow: "shadow-[#A179DC]",
+    //         cover: "from-black to-[#A179DC] rounded-b-md",
     //         opacity: "opacity-80"
 
     //     }
@@ -285,8 +285,8 @@ const skills = [
     //     icon: <Redis />,
     //     name: "Redis",
     //     style: {
-    //         shadow: "shadow-[#4dbc85]",
-    //         cover: "from-black to-[#4dbc85] rounded-b-md",
+    //         shadow: "shadow-[#C6302B]",
+    //         cover: "from-black to-[#C6302B] rounded-b-md",
     //         opacity: "opacity-80"
 
     //     }
@@ -296,8 +296,8 @@ const skills = [
         icon: <Redux />,
         name: "Redux",
         style: {
-            shadow: "shadow-[#4dbc85]",
-            cover: "from-black to-[#4dbc85] rounded-b-md",
+            shadow: "shadow-[#764ABC]",
+            cover: "from-black to-[#764ABC] rounded-b-md",
             opacity: "opacity-80"
 
         }
@@ -307,8 +307,8 @@ const skills = [
         icon: <PostMan />,
         name: "PostMan",
         style: {
-            shadow: "shadow-[#4dbc85]",
-            cover: "from-black to-[#4dbc85] rounded-b-md",
+            shadow: "shadow-[#FF6C37]",
+            cover: "from-black to-[#FF6C37] rounded-b-md",
             opacity: "opacity-80"
 
         }
@@ -318,8 +318,8 @@ const skills = [
         icon: <JQuery />,
         name: "JQuery",
         style: {
-            shadow: "shadow-[#4dbc85]",
-            cover: "from-black to-[#4dbc85] rounded-b-md",
+            shadow: "shadow-[#1266A9]",
+            cover: "from-black to-[#1266A9] rounded-b-md",
             opacity: "opacity-80"
 
         }
@@ -329,8 +329,8 @@ const skills = [
     //     icon: <Doker />,
     //     name: "Doker",
     //     style: {
-    //         shadow: "shadow-[#4dbc85]",
-    //         cover: "from-black to-[#4dbc85] rounded-b-md",
+    //         shadow: "shadow-[#0091E2]",
+    //         cover: "from-black to-[#0091E2] rounded-b-md",
     //         opacity: "opacity-80"
 
     //     }
@@ -340,8 +340,8 @@ const skills = [
     //     icon: <Kubernets />,
     //     name: "Kubernets",
     //     style: {
-    //         shadow: "shadow-[#4dbc85]",
-    //         cover: "from-black to-[#4dbc85] rounded-b-md",
+    //         shadow: "shadow-[#326DE6]",
+    //         cover: "from-black to-[#326DE6] rounded-b-md",
     //         opacity: "opacity-80"
 
     //     }
@@ -351,8 +351,8 @@ const skills = [
     //     icon: <PostGreSql />,
     //     name: "PostgreSql",
     //     style: {
-    //         shadow: "shadow-[#4dbc85]",
-    //         cover: "from-black to-[#4dbc85] rounded-b-md",
+    //         shadow: "shadow-[#336791]",
+    //         cover: "from-black to-[#336791] rounded-b-md",
     //         opacity: "opacity-80"
 
     //     }
@@ -362,12 +362,23 @@ const skills = [
         icon: <Heroku />,
         name: "Heroku",
         style: {
-            shadow: "shadow-[#4dbc85]",
-            cover: "from-black to-[#4dbc85] rounded-b-md",
+            shadow: "shadow-[#430098]",
+            cover: "from-black to-[#430098] rounded-b-md",
             opacity: "opacity-80"
 
         }
     },
+    // {
+    //     id: 35,
+    //     icon: <DotNet />,
+    //     name: "DotNet Core",
+    //     style: {
+    //         shadow: "shadow-[#430098]",
+    //         cover: "from-black to-[#430098] rounded-b-md",
+    //         opacity: "opacity-80"
+
+    //     }
+    // },
 
 
 ]
