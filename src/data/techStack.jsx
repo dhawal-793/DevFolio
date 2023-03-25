@@ -1,49 +1,46 @@
-import {
-    SiJavascript, SiReact, SiNextdotjs, SiTailwindcss, SiGit, SiGithub, SiVisualstudiocode,
-
-} from "react-icons/si"
+import ReactJs, { JS, NextJs, TailwindCSS, Git, GitHub, VSCode } from "../components/SkilIcons"
 
 
 const TechStack = [
     {
         id: 1,
-        icon: <SiReact size={22} className="text-[#00c8ff] z-20" />,
+        icon: <ReactJs width={25} height={30} />,
         name: "React",
 
     },
     {
         id: 2,
-        icon: <SiJavascript size={22} className="text-[#ffc800] z-20" />,
+        icon: <JS width={22} height={30} />,
         name: "Javascript",
 
     },
     {
         id: 3,
-        icon: <SiTailwindcss size={22} className="text-[#0099ff] z-20" />,
+        icon: <TailwindCSS width={25} height={30} />,
         name: "TailwindCSS",
 
     },
     {
         id: 4,
-        icon: <SiNextdotjs size={22} className="text-[#c1b7b7] z-20" />,
+        icon: <NextJs width={35} height1={20} height2={15} />,
         name: "NextJs",
 
     },
     {
         id: 5,
-        icon: <SiGit size={22} className="text-[#ff2f00] z-20" />,
+        icon: <Git width={27} height={30} />,
         name: "Git",
 
     },
     {
         id: 6,
-        icon: <SiGithub size={22} className="text-[#bdbdbd] z-20" />,
+        icon: <GitHub width={25} height={30} />,
         name: "GitHub",
 
     },
     {
         id: 7,
-        icon: <SiVisualstudiocode size={22} className="text-[#0099ff] z-20" />,
+        icon: <VSCode width={25} height={30} />,
         name: "VsCode",
 
     },
