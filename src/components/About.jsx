@@ -13,9 +13,9 @@ const About = () => {
             <div className='section justify-between'>
                 <SectionHeading heading="About Me" />
                 <div className='mb-10  flex flex-col justify-center '>
-                    <img src={profile} alt="" className='cursor-pointer grayscale hover:grayscale-0 hover:scale-[1.02] transition-all delay-75 border-4 border-transparent hover:border-white duration-300 rounded-2xl w-1/2 mx-auto  md:w-[270px]' />
+                    <img src={profile} alt="" className='cursor-pointer grayscale hover:grayscale-0 hover:scale-[1.02] transition-all delay-75 border-4 border-transparent hover:border-white duration-300 rounded-2xl min-w-[240px] w-1/2 mx-auto  md:w-[270px]' />
                 </div>
-                <div className='flex flex-col justify-center w-full px-10 md:px-20 lg:px-28 text-white'>
+                <div className='flex flex-col justify-center w-full px-4 xs:px-10 md:px-20 lg:px-28 text-white'>
                     <h1 className=' text-4xl md:text-5xl lg:text-6xl font-semibold '>Hi, I'm <span className='text-cyan-500'>Dhawal</span></h1>
                     <div className='text-gray-400 py-4 space-y-2 md:space-y-2 md:pt-8 lg:pt-12 font-semibold text-justify'>
                         <p className='leading-tight'>
@@ -28,7 +28,7 @@ const About = () => {
                     </div>
                     <div className='py-3 text-gray-50 sm:flex font-semibold'>
                         <div className='mb-3'>  My Tech Stack ~</div>
-                        <ul className='px-2 flex gap-5 z-40'>
+                        <ul className='px-2 flex gap-5 z-40 flex-wrap'>
                             {
                                 techStack.map(({ id, icon, name }) => {
                                     return (
