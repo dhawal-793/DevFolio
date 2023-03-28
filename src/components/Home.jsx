@@ -13,13 +13,12 @@ const Home = () => {
                 <div className='flex flex-col justify-center md:w-2/5 max-w-[320px]'>
                     <img src={Avatar} alt="" className=' rounded-full mx-auto w-full ' />
                 </div>
-                <div className='pl-8 flex flex-col gap-3 justify-center text-gray-200 w-max md:w-3/5'>
-                    <h2 className=' text-6xl lg:text-7xl font-bold '>Hi There,</h2>
-                    <h2 className=' text-6xl lg:text-7xl font-bold '>I'm <span className='text-transparent bg-gradient-to-br from-cyan-300 to-blue-600 bg-clip-text'> Dhawal </span></h2>
-                    <p className='text-gray-400 text-2xl font-semibold py-4 min-w-[25rem] max-w-[26rem]'>
-                        I am into
-
-                        <span className='text-cyan-400 pl-2'>
+                <div className='pl-2 xs:pl-8 flex flex-col gap-3 justify-center text-gray-200 w-max md:w-3/5'>
+                    <h2 className='text-5xl xs:text-6xl lg:text-7xl font-bold '>Hi There,</h2>
+                    <h2 className='text-5xl xs:text-6xl lg:text-7xl font-bold '>I'm <span className='text-transparent bg-gradient-to-br from-cyan-300 to-blue-600 bg-clip-text'> Dhawal </span></h2>
+                    <p className='text-gray-400 text-xl xs:text-2xl font-semibold py-4 min-w-[16rem] xs:min-w-[25rem] max-w-[26rem]'>
+                       <span className='block xs:inline'> I am into</span>
+                        <span className='text-cyan-400 xs:pl-2'>
                             <TypeAnimation
                                 sequence={work}
                                 speed={1}

@@ -10,7 +10,7 @@ const Navbar = () => {
     }
     return (
         <>
-            <div className='fixed flex justify-between items-center px-5 w-full h-20 bg-gradient-to-b from-black via-black to-transparent z-50 bg-opacity-[0.9]'>
+            <div className='fixed flex justify-between items-center px-5 w-full max-w-[100vw] h-20 bg-gradient-to-b from-black via-black to-transparent z-50 bg-opacity-[0.9]'>
                 <div className='font-signature text-3xl duration-500 text-white hover:text-cyan-400'>
                     <h1 className='px-3 w-max'>Dhawal </h1>
                 </div>
