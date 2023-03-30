@@ -60,8 +60,8 @@ const Footer = () => {
             </div>
             <div className="section py-2 text-black font-advanced">
                 <div className="">
-                    <h4 className=' text-sm text-gray-300 flex justify-center items-center  '>
-                        <span className="px-1 pb-[0.2rem]">  <CopyRight /></span> {`2022- ${year}`} | All Rights Reserved</h4>
+                    <p className=' text-sm text-gray-300 flex justify-center items-center  '>
+                        <span className="px-1 pb-[0.2rem]">  <CopyRight /></span> {`2022- ${year}`} | All Rights Reserved</p>
                 </div>
             </div>
         </div >
