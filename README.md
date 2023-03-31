@@ -30,11 +30,9 @@
 <h2 align="left">📋 Website Preview:</h2>
 
 <p align="center"> 
-  <kbd>
     <a href="https://dhawal-793-portfolio.onrender.com" target="_blank">
-    <img width="85%" src="assets/Website-Preview.png">
+    <img width="85%" src="assets/Website-Preview.png" alt="Dhawal's Personal Portfolio">
   </a>
-  </kbd>
 </p>
 
 ---
