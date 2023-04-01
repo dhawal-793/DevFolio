@@ -7,7 +7,7 @@ const Project = ({ project: { img, demo, code, description, style = { shadow: "s
         <Card style={style} >
 
             <div className="group relative rounded-md cursor-pointer">
-                <img src={img} alt="Projec-Image" className='rounded-t-md ' />
+                <img src={img} alt="Projec-Image" width="auto" height="auto" loading='lazy' className='rounded-t-md ' />
                 <CardCover text={description} style={style} />
             </div>
             <div className='flex justify-center items-center rounded-b-md'>
