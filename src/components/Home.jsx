@@ -11,7 +11,7 @@ const Home = () => {
         <div name='Home' className='pt-8 h-full min-h-screen w-full flex items-center bg-gradient-to-b from-black via-black to-gray-800 '>
             <div className='section gap-16 md:gap-1 md:justify-between items-center md:flex-row-reverse'>
                 <div className='flex flex-col justify-center md:w-2/5 max-w-[320px]'>
-                    <img src={Avatar} alt="" className=' rounded-full mx-auto w-full ' />
+                    <img src={Avatar} alt="" width="auto" height="auto" className=' rounded-full mx-auto w-full ' />
                 </div>
                 <div className='pl-2 xs:pl-8 flex flex-col gap-3 justify-center text-gray-200 w-max md:w-3/5'>
                     <h1 className='text-5xl xs:text-6xl lg:text-7xl font-bold '>Hi There,
