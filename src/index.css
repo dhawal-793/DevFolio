@@ -12,26 +12,43 @@
     scrollbar-width: thin;
     scrollbar-color: #5bd0f6;
     scrollbar-track-color: #5a606b;
-    --xposition:calc(100vw - 28px);
+    --xposition: calc(100vw - 28px);
   }
   *::-webkit-scrollbar {
     width: 8px;
     background-color: #1e1e20;
   }
   *::-webkit-scrollbar-thumb {
-    background-image: linear-gradient(
-      to bottom ,
-      #9fe2f9,
-      #006eff
-    ) !important;
+    background-image: linear-gradient(to bottom, #9fe2f9, #006eff) !important;
     border-radius: 14px;
   }
 
   html {
     font-family: "Raleway", sans-serif;
   }
-  .animate-menu{
+  .animate-menu {
     transform-origin: var(--xposition) 38px;
+  }
+  .animatedHeading {
+    width: fit-content;
+    background-clip: text;
+    background-image: linear-gradient(
+      45deg,
+      #09deff,
+      #22d3ee,
+      #3983f5,
+      #0066ff
+    );
+    background-size: 150%;
+    animation: customAnimation 2s ease-in-out 0s infinite alternate;
+  }
+  @keyframes customAnimation {
+    0% {
+      background-position: left;
+    }
+    100% {
+      background-position: right;
+    }
   }
 }
 
