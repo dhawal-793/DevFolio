@@ -11,7 +11,7 @@ const About = () => {
             <div className='section justify-between'>
                 <SectionHeading heading="About Me" />
                 <div className='mb-10  flex flex-col justify-center '>
-                    <img src={profile} alt="Profile" width="auto" height="auto" loading='lazy' className='cursor-pointer grayscale hover:grayscale-0 hover:scale-[1.02] transition-all delay-75 border-4 border-transparent hover:border-white duration-300 rounded-2xl min-w-[240px] w-1/2 mx-auto  md:w-[270px]' />
+                    <img src={profile} alt="Profile" width="auto" height="auto" loading='lazy' title='Profile Picture' className='cursor-pointer grayscale hover:grayscale-0 hover:scale-[1.02] transition-all delay-75 border-4 border-transparent hover:border-white duration-300 rounded-2xl min-w-[240px] w-1/2 mx-auto  md:w-[270px]' />
                 </div>
                 <div className='flex flex-col justify-center w-full px-2 xs: sm:px-12 md:px-4 lg:px-14 text-white '>
                     <h3 className='text-2xl xs:text-3xl  sm:text-4xl md:text-5xl lg:text-6xl font-semibold '>Hi, I'm <span className='text-cyan-500 block xs:inline'>Dhawal Vijayvargiya</span></h3>

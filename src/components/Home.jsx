@@ -11,13 +11,16 @@ const Home = () => {
         <div name='Home' className='pt-8 h-full min-h-screen w-full flex items-center bg-gradient-to-b from-black via-black to-gray-800 '>
             <div className='section gap-16 md:gap-1 md:justify-between items-center md:flex-row-reverse'>
                 <div className='flex flex-col justify-center md:w-2/5 max-w-[320px]'>
-                    <img src={Avatar} alt="" width="auto" height="auto" className=' rounded-full mx-auto w-full ' />
+                    <img src={Avatar} alt="" width="auto" height="auto" loading='eager' title='Avatar' className='rounded-full mx-auto w-full ' />
                 </div>
                 <div className='pl-2 xs:pl-8 flex flex-col gap-3 justify-center text-gray-200 w-max md:w-3/5'>
-                    <h1 className='text-5xl xs:text-6xl lg:text-7xl font-bold '>Hi There,
-                    <span className='text-5xl xs:text-6xl lg:text-7xl font-bold block'>I'm <span className='text-transparent bg-gradient-to-br from-cyan-300 to-blue-600 bg-clip-text'> Dhawal </span></span></h1>
+                    <h1 className='text-5xl xs:text-6xl lg:text-7xl font-bold '>
+                        <span className='block'>Hi There, </span>
+                        <span>I'm </span>
+                        <span className='text-transparent bg-gradient-to-br from-cyan-300 to-blue-600 bg-clip-text'> Dhawal </span>
+                    </h1>
                     <p className='text-gray-400 text-xl xs:text-2xl font-semibold py-4 min-w-[16rem] xs:min-w-[25rem] max-w-[26rem]'>
-                       <span className='block xs:inline'> I am into</span>
+                        <span className='block xs:inline'> I am into</span>
                         <span className='text-cyan-400 xs:pl-2'>
                             <TypeAnimation
                                 sequence={work}
