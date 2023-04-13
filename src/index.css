@@ -8,23 +8,31 @@
 @tailwind utilities;
 
 @layer base {
+  /* Works on Firefox */
   * {
     scrollbar-width: thin;
-    scrollbar-color: #5bd0f6;
-    scrollbar-track-color: #5a606b;
-    --xposition: calc(100vw - 28px);
+    scrollbar-color: #ff0011;
+    scrollbar-track-color: #009ac3;
   }
+  /* Works on Chrome, Edge, and Safari */
   *::-webkit-scrollbar {
     width: 8px;
-    background-color: #1e1e20;
+  }
+  *::-webkit-scrollbar-track {
+    background: #009ac3;
   }
   *::-webkit-scrollbar-thumb {
-    background-image: linear-gradient(to bottom, #9fe2f9, #006eff) !important;
-    border-radius: 14px;
+    background-color: #ff0011;
+    /* background-image: linear-gradient(to bottom, #9fe2f9, #006eff) !important; */
+    /* border-radius: 20px; */
+    /* border: 3px solid orange; */
   }
 
   html {
     font-family: "Raleway", sans-serif;
+  }
+  body{
+    --xposition: calc(100vw - 28px);
   }
   .animate-menu {
     transform-origin: var(--xposition) 38px;
