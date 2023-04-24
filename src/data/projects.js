@@ -60,7 +60,7 @@ const projects = [
     {
         id: 5,
         img: ECF,
-        demo: "https://witty-river-0392a6200.1.azurestaticapps.net/",
+        demo: "https://dhawal-793.github.io/E-Commerce-Website-Front-End-Design/",
         code: "https://github.com/dhawal-793/E-Commerce-Website-Front-End-Design",
         description: "Frontend Design of an Ecommerce Website created using HTML CSS JS and Bootstrap.",
         style: {
