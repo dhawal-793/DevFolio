@@ -21,7 +21,7 @@ const Footer = () => {
                         {navLinks.map(({ link, id }) => {
                             return (
                                 <div key={id} className="group w-fit px-3">
-                                    <Link to={link} >
+                                    <Link to={link} smooth duration={500}>
                                         <div className="flex items-center justify-between w-fit gap-2 font-semibold text-white cursor-pointer">
                                             <ArrowRightLong />
                                             <span className='bg-clip-text bg-gradient-to-r from-cyan-500 via-cyan-500 to-blue-500 group-hover:text-transparent duration-500 group-hover:animate-pulse '>
@@ -44,7 +44,7 @@ const Footer = () => {
                             <ul className="flex items-center  gap-5 md:gap-8 lg:gap-4 justify-start ">
                                 {contactInfo.map(({ id, link, name, icon, download }) => {
                                     return (
-                                        <li key={id}  className={`group relative w-8 h-8 flex justify-center items-center rounded-full p-1 sm:grayscale  cursor-pointer duration-[450ms] transition ease-in hover:grayscale-0 hover:scale-105 focus:grayscale-0 focus:scale-105 active:grayscale-0 active:scale-105`}>
+                                        <li key={id} className={`group relative w-8 h-8 flex justify-center items-center rounded-full p-1 sm:grayscale  cursor-pointer duration-[450ms] transition ease-in hover:grayscale-0 hover:scale-105 focus:grayscale-0 focus:scale-105 active:grayscale-0 active:scale-105`}>
                                             <a href={link} download={download} target="_blank" rel='noferrer'>{icon}</a>
                                             <div className="flex scale-0 sm:group-hover:scale-100 group-focus:scale-100 transition ease-out duration-300 delay-100 origin-center justify-center items-center absolute -bottom-10 w-auto h-6 py-2 px-3 bg-gray-900 text-sm text-gray-300">
                                                 {name}
