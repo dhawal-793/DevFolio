@@ -13,7 +13,7 @@ const Projects = () => {
                 <GridLayout style="sm:grid-cols-2 md:grid-cols-3">
                     {personalProjects.map((project) => {
                         return (
-                            <Project key={project.id} project={project} />
+                            <Project key={project.name} project={project} />
                         )
                     })}
 
