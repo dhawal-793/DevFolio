@@ -3,6 +3,7 @@ import Dev_News from "../assets/Projects/Dev_News.png"
 import CLI_TMA from "../assets/Projects/CLI_TMA.png"
 import ECF from "../assets/Projects/ECF.png"
 import FAC from "../assets/Projects/FAC.png"
+import ECOMMERCE_DASHBOARD from "../assets/Projects/ECOMMERCE_DASHBOARD.png"
 import DevFolio from "../assets/Projects/DevFolio.png"
 import SIMON_GAME from "../assets/Projects/SIMON_GAME.png"
 import TODO_APP from "../assets/Projects/TODO_APP.png"
@@ -11,6 +12,30 @@ import TODO_APP from "../assets/Projects/TODO_APP.png"
 
 
 const projects = [
+    {
+        img: ECOMMERCE_DASHBOARD,
+        name: "Ecommerce_Dashboard",
+        demo: "https://ecommerce-dashboard-793.vercel.app/",
+        code: "https://github.com/dhawal-793/Ecommerce_Dashboard",
+        description: "All in One Dashboard for managing Ecommerce Stores, built with NextJS, ReactJs and shadcn-ui with prisma, typescript, planetScale, and clerkauth.",
+        style: {
+            shadow: "shadow-[#3498AB]",
+            cover: "from-[#3498AB]",
+            display: " hidden group-hover:flex"
+        }
+    },
+    // {
+    //     img: Dev_News,
+    //     name: "Dev_Store",
+    //     demo: "https://dev-store-793.vercel.app/",
+    //     code: "https://github.com/dhawal-793/Dev_Store",
+    //     description: "DevStore is an All in One E-Commerce Shopping website built with NextJs,",
+    //     style: {
+    //         shadow: "shadow-[#FB923C]",
+    //         cover: "from-[#FB923C]",
+    //         display: " hidden group-hover:flex"
+    //     }
+    // },
     {
         img: Dev_News,
         name: "Dev_News",
