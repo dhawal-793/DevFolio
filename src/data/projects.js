@@ -1,4 +1,4 @@
-import UR_NOTES from "../assets/Projects/UR_NOTES.png"
+import Dev_Notes from "../assets/Projects/DEV_NOTES.png"
 import Dev_News from "../assets/Projects/Dev_News.png"
 import CLI_TMA from "../assets/Projects/CLI_TMA.png"
 import ECF from "../assets/Projects/ECF.png"
@@ -61,11 +61,11 @@ const projects = [
         }
     },
     {
-        img: UR_NOTES,
-        name: "UrNotes",
-        demo: "https://ur-notes.onrender.com/",
-        code: "https://github.com/dhawal-793/Ur-Notes",
-        description: "Ur-Notes is a Simple Notes App Created using MERN Stack with complete user Authentication.",
+        img: Dev_Notes,
+        name: "DevNotes",
+        demo: "https://dev-notes-c999.onrender.com/",
+        code: "https://github.com/dhawal-793/Dev_Notes",
+        description: "DevNotes is a Simple Notes App Created using MERN Stack with complete user Authentication.",
         style: {
             shadow: "shadow-[#7F757D]",
             cover: "from-[#7F757D]",
