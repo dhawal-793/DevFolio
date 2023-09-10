@@ -9,7 +9,7 @@ const Navbar = () => {
     }
     return (
         <>
-            <div className='fixed  w-full max-w-[100vw] h-20 bg-gradient-to-b from-black via-black to-transparent z-50 bg-opacity-[0.9]'>
+            <div className='fixed w-full max-w-[100vw] h-20 bg-gradient-to-b from-black via-black to-transparent z-50 bg-opacity-[0.9]'>
                 <div className='flex justify-between items-center px-5 max-w-screen-2xl mx-auto'>
                     <div className=' text-[2.5rem] duration-500 font-semibold group cursor-pointer'>
                         <p className='animatedHeading font-signature'>

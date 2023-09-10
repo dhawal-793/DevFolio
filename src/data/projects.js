@@ -63,12 +63,12 @@ const projects = [
     {
         img: Dev_Notes,
         name: "DevNotes",
-        demo: "https://dev-notes-c999.onrender.com/",
+        demo: "https://dev-notes-793.vercel.app/",
         code: "https://github.com/dhawal-793/Dev_Notes",
         description: "DevNotes is a Simple Notes App Created using MERN Stack with complete user Authentication.",
         style: {
-            shadow: "shadow-[#7F757D]",
-            cover: "from-[#7F757D]",
+            shadow: "shadow-[#F8FAFC]",
+            cover: "from-[#F8FAFC]",
             display: " hidden group-hover:flex"
         }
     },
