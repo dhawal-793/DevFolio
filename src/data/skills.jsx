@@ -152,6 +152,17 @@ const skills = [
         }
     },
     {
+        id: 33,
+        icon: <PostGreSql />,
+        name: "PostgreSql",
+        style: {
+            shadow: "shadow-[#336791]",
+            cover: "from-black to-[#336791] rounded-b-md",
+            opacity: "opacity-80"
+
+        }
+    },
+    {
         id: 15,
         icon: <FireBase />,
         name: "Firebase",
@@ -291,17 +302,17 @@ const skills = [
 
     //     }
     // },
-    {
-        id: 28,
-        icon: <Redux />,
-        name: "Redux",
-        style: {
-            shadow: "shadow-[#764ABC]",
-            cover: "from-black to-[#764ABC] rounded-b-md",
-            opacity: "opacity-80"
+    // {
+    //     id: 28,
+    //     icon: <Redux />,
+    //     name: "Redux",
+    //     style: {
+    //         shadow: "shadow-[#764ABC]",
+    //         cover: "from-black to-[#764ABC] rounded-b-md",
+    //         opacity: "opacity-80"
 
-        }
-    },
+    //     }
+    // },
     {
         id: 29,
         icon: <PostMan />,
@@ -347,27 +358,16 @@ const skills = [
     //     }
     // },
     // {
-    //     id: 33,
-    //     icon: <PostGreSql />,
-    //     name: "PostgreSql",
+    //     id: 34,
+    //     icon: <Heroku />,
+    //     name: "Heroku",
     //     style: {
-    //         shadow: "shadow-[#336791]",
-    //         cover: "from-black to-[#336791] rounded-b-md",
+    //         shadow: "shadow-[#430098]",
+    //         cover: "from-black to-[#430098] rounded-b-md",
     //         opacity: "opacity-80"
 
     //     }
     // },
-    {
-        id: 34,
-        icon: <Heroku />,
-        name: "Heroku",
-        style: {
-            shadow: "shadow-[#430098]",
-            cover: "from-black to-[#430098] rounded-b-md",
-            opacity: "opacity-80"
-
-        }
-    },
     // {
     //     id: 35,
     //     icon: <DotNet />,
