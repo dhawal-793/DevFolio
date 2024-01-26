@@ -21,7 +21,7 @@ const About = () => {
                         </p>
                         <p className='leading-tight'> I also love to make beautiful Web Applications with technologies like MERN Stack, NextJs.</p>
                         <p className='leading-tight'>
-                            Coding Enthusuast, quick learner and Passionate Web Developer currently pursuing Bachelor's degree in computer Applications at Mohanlal Sukhadia University, Udaipur, (Rajasthan).
+                            Coding Enthusuast, quick learner and Passionate Web Developer currently pursuing Master's in Computer Applications at Geetanjali Institute of Technical Studies, Udaipur, (Rajasthan).
                         </p>
                     </div>
                     <div className='py-3 text-gray-50 sm:flex font-semibold'>

@@ -10,10 +10,10 @@ const Projects = () => {
 
                 <SectionHeading heading="Projects" secondHeading="Check Out Some of my work" />
 
-                <GridLayout style="sm:grid-cols-2 md:grid-cols-3">
+                <GridLayout style="sm:grid-cols-2 md:max-w-2xl mx-auto lg:max-w-none lg:grid-cols-3 ">
                     {personalProjects.map((project) => {
                         return (
-                            <Project key={project.id} project={project} />
+                            <Project key={project.name} project={project} />
                         )
                     })}
 
