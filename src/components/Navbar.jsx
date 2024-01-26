@@ -21,8 +21,9 @@ const Navbar = () => {
                     <Navigation ulClass="hidden md:flex" liClass="" />
                     <HamBurgerMenu handleClick={handleClick} navOpen={navOpen} />
 
-                    <Navigation handleClick={handleClick} ulClass={`scale-0 animate-menu xs:origin-[292px_38px] duration-500 ${navOpen && "scale-100 "} flex flex-col h-screen bg-gradient-to-b from-black to-gray-800 w-screen xs:w-80  top-0 right-0 absolute items-center justify-center md:scale-0`} liClass="my-4 py-2 text-lg" />
+                    <Navigation handleClick={handleClick} ulClass={`${navOpen ? "-translate-x-0":"translate-x-full"} duration-500 flex flex-col h-screen bg-gradient-to-b from-black to-gray-800 w-screen xs:w-80  top-0 right-0 absolute items-center justify-center md:scale-0`} liClass="my-4 py-2 text-lg" />
                 </div>
+            </div>
             <div className="md:hidden h-32 w-full bg-black "></div>
         </>
     )
