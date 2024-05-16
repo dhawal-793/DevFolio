@@ -12,9 +12,9 @@ const Footer = () => {
                     <div className="w-full sm:w-3/5 lg:w-2/5 pr-2">
                         <h3 className='text-white text-[1.75rem] font-bold pb-2'>Dhawal Vijayvargiya</h3>
                         <p className='text-lg text-cyan-400 pb-5'>FullStack Developer</p>
-                        <p>Thank you for visiting my Personal Portfolio.</p>
-                        <p>Lets connect over socials.</p>
-                        <p>Open to any Feedback</p>
+                        <p>Thank you for visiting DevFolio.</p>
+                        <p>You can connect with me over socials.</p>
+                        <p>Have any Suggestions. Type it above. </p>
                     </div>
                     <div className="w-full xs:w-2/5 mt-8 sm:w-2/5 sm:mt-0 lg:w-[30%] sm:pl-20 lg:pl-12 justify-start">
                         <h3 className='text-white text-[1.35rem] xs:text-2xl font-bold pb-4'>Quick Links</h3>

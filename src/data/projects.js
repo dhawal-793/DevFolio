@@ -1,20 +1,22 @@
-import Dev_Notes from "../assets/Projects/DEV_NOTES.png"
+import Ecommerce_Dashboard from "../assets/Projects/Ecommerce_Dashboard.png"
+import Dev_Store from "../assets/Projects/Dev_Store.png"
 import Dev_News from "../assets/Projects/Dev_News.png"
-import CLI_TMA from "../assets/Projects/CLI_TMA.png"
-import ECF from "../assets/Projects/ECF.png"
+import Dev_Notes from "../assets/Projects/Dev_Notes.png"
+import Dev_Folio from "../assets/Projects/Dev_Folio.png"
+import Spam_Detector from "../assets/Projects/Spam_Detector.png"
 import FAC from "../assets/Projects/FAC.png"
-import ECOMMERCE_DASHBOARD from "../assets/Projects/ECOMMERCE_DASHBOARD.png"
-import DevFolio from "../assets/Projects/DevFolio.png"
-import SIMON_GAME from "../assets/Projects/SIMON_GAME.png"
-import TODO_APP from "../assets/Projects/TODO_APP.png"
+import Simon_Game from "../assets/Projects/Simon_Game.png"
+import Todo_App from "../assets/Projects/Todo_App.png"
+import ECF from "../assets/Projects/ECF.png"
+import CLI_TMA from "../assets/Projects/CLI_TMA.png"
 
 
 
 
 const projects = [
     {
-        img: ECOMMERCE_DASHBOARD,
-        name: "Ecommerce_Dashboard",
+        img: Ecommerce_Dashboard,
+        name: "Ecommerce Dashboard",
         demo: "https://ecommerce-dashboard-793.vercel.app/",
         code: "https://github.com/dhawal-793/Ecommerce_Dashboard",
         description: "All in One Dashboard for managing Ecommerce Stores, built with NextJS, ReactJs and shadcn-ui with prisma, typescript, planetScale, and clerkauth.",
@@ -24,21 +26,21 @@ const projects = [
             display: " hidden group-hover:flex"
         }
     },
-    // {
-    //     img: Dev_News,
-    //     name: "Dev_Store",
-    //     demo: "https://dev-store-793.vercel.app/",
-    //     code: "https://github.com/dhawal-793/Dev_Store",
-    //     description: "DevStore is an All in One E-Commerce Shopping website built with NextJs,",
-    //     style: {
-    //         shadow: "shadow-[#FB923C]",
-    //         cover: "from-[#FB923C]",
-    //         display: " hidden group-hover:flex"
-    //     }
-    // },
+    {
+        img: Dev_Store,
+        name: "Dev Store",
+        demo: "https://dev-store-793.vercel.app/",
+        code: "https://github.com/dhawal-793/Dev_Store",
+        description: "DevStore is an All in One E-Commerce Shopping website built with NextJs,",
+        style: {
+            shadow: "shadow-[#5E4746]",
+            cover: "from-[#5E4746]",
+            display: " hidden group-hover:flex"
+        }
+    },
     {
         img: Dev_News,
-        name: "Dev_News",
+        name: "Dev News",
         demo: "https://dev-news-793.vercel.app/",
         code: "https://github.com/dhawal-793/Dev_News",
         description: "Dev News is a news website, where you can find the latest news anytime, anywhere",
@@ -49,7 +51,19 @@ const projects = [
         }
     },
     {
-        img: DevFolio,
+        img: Dev_Notes,
+        name: "Dev Notes",
+        demo: "https://dev-notes-793.vercel.app/",
+        code: "https://github.com/dhawal-793/Dev_Notes",
+        description: "DevNotes is a Simple Notes App Created using MERN Stack with complete user Authentication.",
+        style: {
+            shadow: "shadow-[#F8FAFC]",
+            cover: "from-[#F8FAFC]",
+            display: " hidden group-hover:flex"
+        }
+    },
+    {
+        img: Dev_Folio,
         name: "DevFolio",
         demo: "https://dev-folio-793.vercel.app",
         code: "https://github.com/dhawal-793/DevFolio",
@@ -61,14 +75,14 @@ const projects = [
         }
     },
     {
-        img: Dev_Notes,
-        name: "DevNotes",
-        demo: "https://dev-notes-793.vercel.app/",
-        code: "https://github.com/dhawal-793/Dev_Notes",
-        description: "DevNotes is a Simple Notes App Created using MERN Stack with complete user Authentication.",
+        img: Spam_Detector,
+        name: "Spam Detector",
+        demo: "https://spam-detector-793.vercel.app",
+        code: "https://github.com/dhawal-793/spam-detection-next",
+        description: "Spam Detector is a Hack-A-Vishkar hackathon project organised in Geetanjali Collage of Technical Studies, on spam email detection system using custom ml models.",
         style: {
-            shadow: "shadow-[#F8FAFC]",
-            cover: "from-[#F8FAFC]",
+            shadow: "shadow-[#277AF8]",
+            cover: "from-[#277AF8]",
             display: " hidden group-hover:flex"
         }
     },
@@ -85,7 +99,7 @@ const projects = [
         }
     },
     {
-        img: SIMON_GAME,
+        img: Simon_Game,
         name: "Simon Game",
         demo: "https://dhawal-793.github.io/Simon-Game/",
         code: "https://github.com/dhawal-793/Simon-Game",
@@ -97,7 +111,7 @@ const projects = [
         }
     },
     {
-        img: TODO_APP,
+        img: Todo_App,
         name: "TODO APP",
         demo: "https://meen-to-do-app.onrender.com/",
         code: "https://github.com/dhawal-793/MEEN-TODO-APP",
