@@ -1,5 +1,5 @@
 
-import ReactJs, { Bash, Bootstrap, C, CPlusPlus, CSharp, CSS, Doker, DotNet, ExpressJS, FireBase, Git, GitHub, Heroku, HTML, Java, JQuery, JS, Kotlin, Kubernets, MaterialUI, MongoDB, MySQL, NextJs, NodeJS, PHP, PostGreSql, PostMan, Python, Redis, Redux, SASS, TailwindCSS, TS, VSCode } from "../components/SkilIcons";
+import ReactJs, { Bash, Bootstrap, C, Canva, CPlusPlus, CSS, Doker, ExpressJS, FireBase, Git, GitHub, Heroku, HTML, Java, JQuery, JS, Kotlin, Kubernets, MaterialUI, MongoDB, MySQL, NextJs, NodeJS, PHP, PostGreSql, PostMan, Python, Redux, TailwindCSS, TS, VSCode } from "../components/SkilIcons";
 
 
 const skills = [
@@ -118,17 +118,17 @@ const skills = [
             opacity: "opacity-80"
         }
     },
-    {
-        id: 12,
-        icon: <SASS />,
-        name: "SASS",
-        style: {
-            shadow: "shadow-[#CC6699]",
-            cover: "from-black to-[#CC6699] rounded-b-md",
-            opacity: "opacity-80"
+    // {
+    //     id: 12,
+    //     icon: <SASS />,
+    //     name: "SASS",
+    //     style: {
+    //         shadow: "shadow-[#CC6699]",
+    //         cover: "from-black to-[#CC6699] rounded-b-md",
+    //         opacity: "opacity-80"
 
-        }
-    },
+    //     }
+    // },
     {
         id: 13,
         icon: <MaterialUI />,
@@ -302,17 +302,17 @@ const skills = [
 
     //     }
     // },
-    // {
-    //     id: 28,
-    //     icon: <Redux />,
-    //     name: "Redux",
-    //     style: {
-    //         shadow: "shadow-[#764ABC]",
-    //         cover: "from-black to-[#764ABC] rounded-b-md",
-    //         opacity: "opacity-80"
+    {
+        id: 28,
+        icon: <Redux />,
+        name: "Redux",
+        style: {
+            shadow: "shadow-[#764ABC]",
+            cover: "from-black to-[#764ABC] rounded-b-md",
+            opacity: "opacity-80"
 
-    //     }
-    // },
+        }
+    },
     {
         id: 29,
         icon: <PostMan />,
@@ -335,17 +335,17 @@ const skills = [
 
         }
     },
-    // {
-    //     id: 31,
-    //     icon: <Doker />,
-    //     name: "Doker",
-    //     style: {
-    //         shadow: "shadow-[#0091E2]",
-    //         cover: "from-black to-[#0091E2] rounded-b-md",
-    //         opacity: "opacity-80"
+    {
+        id: 31,
+        icon: <Doker />,
+        name: "Doker",
+        style: {
+            shadow: "shadow-[#0091E2]",
+            cover: "from-black to-[#0091E2] rounded-b-md",
+            opacity: "opacity-80"
 
-    //     }
-    // },
+        }
+    },
     // {
     //     id: 32,
     //     icon: <Kubernets />,
@@ -357,17 +357,17 @@ const skills = [
 
     //     }
     // },
-    // {
-    //     id: 34,
-    //     icon: <Heroku />,
-    //     name: "Heroku",
-    //     style: {
-    //         shadow: "shadow-[#430098]",
-    //         cover: "from-black to-[#430098] rounded-b-md",
-    //         opacity: "opacity-80"
+    {
+        id: 34,
+        icon: <Canva />,
+        name: "Canva",
+        style: {
+            shadow: "shadow-[#430098]",
+            cover: "from-black to-[#430098] rounded-b-md",
+            opacity: "opacity-80"
 
-    //     }
-    // },
+        }
+    },
     // {
     //     id: 35,
     //     icon: <DotNet />,
