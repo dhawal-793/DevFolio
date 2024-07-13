@@ -2,7 +2,7 @@ import React from 'react'
 
 const Card = ({children,style}) => {
   return (
-    <div className={`shadow-md ${style?.shadow} rounded-lg text-white hover:scale-105 duration-500`}>
+    <div className={`shadow-md ${style?.shadow} rounded-lg text-white hover:scale-105 duration-500 m-2`}>
       {children}
     </div>
   )
