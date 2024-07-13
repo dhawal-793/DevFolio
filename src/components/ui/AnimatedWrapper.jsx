@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 import { useInView, motion, useAnimation } from "framer-motion";
 
-const AnimatedWrapper = ({ children, delay = 0.5, animateFrom = "bottom" }) => {
+const AnimatedWrapper = ({ children, delay = 0.5, animateFrom = "left" }) => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
   const myControls = useAnimation();
@@ -12,7 +12,7 @@ const AnimatedWrapper = ({ children, delay = 0.5, animateFrom = "bottom" }) => {
     }
   }, [isInView]);
   return (
-    <div ref={ref} className="relative overflow-hidden">
+    <div ref={ref} className="relative overflow-hidden w-full h-full">
       <motion.div
         variants={{
           hidden: {
@@ -25,7 +25,7 @@ const AnimatedWrapper = ({ children, delay = 0.5, animateFrom = "bottom" }) => {
         initial="hidden"
         animate={myControls}
         transition={{
-          duration: 0.4,
+          duration: 0.6,
           delay: delay,
           ease: "easeIn",
         }}
