@@ -42,22 +42,18 @@ const About = () => {
           </AnimatedWrapper>
           <div className="text-gray-400 py-4 space-y-2 md:space-y-2 md:pt-8 lg:pt-12 font-semibold text-justify">
             <AnimatedWrapper>
-              {" "}
               <p className="leading-tight">
-                An aspiring Fullstack Web Developer based in India. I mostly
-                works on Frontend using React and Tailwind CSS.
+                Aspiring DevOps Engineer, based in Udaipur, India.
+                Currently working as DevOps Intern @ GKMIT Ltd. Udaipur.
               </p>
             </AnimatedWrapper>
             <AnimatedWrapper>
-              {" "}
               <p className="leading-tight">
-                {" "}
                 I also love to make beautiful Web Applications with technologies
                 like MERN Stack, NextJs.
               </p>
             </AnimatedWrapper>
             <AnimatedWrapper>
-              {" "}
               <p className="leading-tight">
                 Coding Enthusuast, quick learner and Passionate Web Developer
                 currently pursuing Master's in Computer Applications at
