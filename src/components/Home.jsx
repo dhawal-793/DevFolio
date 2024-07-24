@@ -9,18 +9,12 @@ import Avatar from "../assets/Avatars/Avatar.svg";
 import contactInfo from "../data/contactInfo";
 
 const Home = () => {
-  const work = [
+  const interest = [
+    "DevOps",
+    2000,
     "Frontend Development",
     2000,
     "Backend Development",
-    2000,
-    "Android Development",
-    2000,
-    "DevOps",
-    2000,
-    "Machine Learning",
-    2000,
-    "Web Designing",
     2000,
   ];
 
@@ -49,8 +43,7 @@ const Home = () => {
               <span className="block">Hi There, </span>
               <span>I'm </span>
               <span className="text-transparent bg-gradient-to-br from-cyan-300 to-blue-600 bg-clip-text">
-                {" "}
-                Dhawal{" "}
+                Dhawal
               </span>
             </h1>
           </AnimatedWrapper>
@@ -59,7 +52,7 @@ const Home = () => {
               <span className="block xs:inline"> I am into</span>
               <span className="text-cyan-400 xs:pl-2">
                 <TypeAnimation
-                  sequence={work}
+                  sequence={interest}
                   speed={1}
                   wrapper="span"
                   cursor={true}

@@ -18,7 +18,7 @@ const Projects = () => {
           />
         </AnimatedWrapper>
 
-        <GridLayout style="sm:grid-cols-2 md:max-w-2xl mx-auto lg:max-w-none lg:grid-cols-3 ">
+        <GridLayout style="sm:grid-cols-2 md:max-w-2xl mx-auto lg:max-w-none lg:grid-cols-3 gap-2">
           {personalProjects.map((project, i) => {
               return (
                 <AnimatedWrapper

@@ -20,7 +20,7 @@ const Skills = () => {
         </AnimatedWrapper>
         <AnimatedWrapper>
           <div className="py-2 xs:p-4 rounded-lg bg-gray-900">
-            <GridLayout style="grid-cols-2 xs:grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6">
+            <GridLayout style="grid-cols-2 xs:grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 gap-4">
               {skills.map((skill, i) => {
                 return (
                   <AnimatedWrapper
