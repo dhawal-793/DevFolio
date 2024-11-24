@@ -55,7 +55,7 @@ const About = () => {
             </AnimatedWrapper>
             <AnimatedWrapper>
               <p className="leading-tight">
-                Coding Enthusuast, quick learner and Passionate Web Developer
+                DevOps Enthusuast, quick learner and Passionate coder,
                 currently pursuing Master's in Computer Applications at
                 Geetanjali Institute of Technical Studies, Udaipur, (Rajasthan).
               </p>
