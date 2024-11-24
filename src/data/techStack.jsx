@@ -1,48 +1,47 @@
-import ReactJs, { JS, NextJs, TailwindCSS, Git, GitHub, VSCode } from "../components/SkilIcons"
+import  { Git, VSCode, Terraform, AWS, Jenkins, Linux, MERN, TailwindCSS, Docker } from "../components/SkilIcons"
 
 
 const TechStack = [
     {
-        id: 1,
-        icon: <ReactJs width={25} height={30} />,
-        name: "React",
+        icon: <Docker width={32} height={32} />,
+        name: "Docker",
+        
+    },
+    {
+        icon: <AWS width={35} height={35} />,
+        name: "AWS",
+        
+    },
+    {
+        icon: <Terraform width={32} height={32} />,
+        name: "Terraform",
 
     },
     {
-        id: 2,
-        icon: <JS width={22} height={30} />,
-        name: "Javascript",
-
-    },
-    {
-        id: 3,
-        icon: <TailwindCSS width={25} height={30} />,
-        name: "TailwindCSS",
-
-    },
-    {
-        id: 4,
-        icon: <NextJs width={35} height1={20} height2={15} />,
-        name: "NextJs",
-
-    },
-    {
-        id: 5,
-        icon: <Git width={27} height={30} />,
+        icon: <Git width={30} height={30} />,
         name: "Git",
 
     },
     {
-        id: 6,
-        icon: <GitHub width={25} height={30} />,
-        name: "GitHub",
+        icon: <Jenkins width={35} height={35} />,
+        name: "Jenkins",
 
     },
     {
-        id: 7,
-        icon: <VSCode width={25} height={30} />,
+        icon: <VSCode width={30} height={32} />,
         name: "VsCode",
-
+    },
+    {
+        icon: <Linux width={35} height={35} />,
+        name: "Linux",
+    },
+    {
+        icon: <MERN width={35} height={35} />,
+        name: "MERN Stack",
+    },
+    {
+        icon: <TailwindCSS width={30} height={30} />,
+        name: "Tailwind CSS",
     },
 ]
 
