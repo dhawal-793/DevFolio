@@ -9,9 +9,11 @@ import Avatar from "../assets/Avatars/Avatar.svg";
 import contactInfo from "../data/contactInfo";
 
 const Home = () => {
-  const interest = [
+  const interests = [
+    " . . . ",
+    3000,
     "DevOps",
-    2000,
+    4000,
     "Frontend Development",
     2000,
     "Backend Development",
@@ -52,7 +54,7 @@ const Home = () => {
               <span className="block xs:inline"> I am into</span>
               <span className="text-cyan-400 xs:pl-2">
                 <TypeAnimation
-                  sequence={interest}
+                  sequence={interests}
                   speed={1}
                   wrapper="span"
                   cursor={true}
