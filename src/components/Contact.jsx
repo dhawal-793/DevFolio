@@ -47,7 +47,7 @@ const Contact = () => {
           <div className="flex justify-center items-center">
             <form
               onSubmit={handleSubmit}
-              className="flex gap-3 flex-col w-full md:w-1/2 "
+              className="flex gap-3 flex-col w-full md:w-1/2 lg:w-2/3"
             >
               <AnimatedWrapper>
                 <div className=" w-full">
