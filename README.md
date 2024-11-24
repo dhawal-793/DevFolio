@@ -1,6 +1,6 @@
 # DevFolio : My Personal Portfolio
 
-> This is My [Personal Portfolio](https://dhawal-793-portfolio.onrender.com)
+> This is My [Personal Portfolio](https://portfolio.dhawal.in.net)
 
 ---
 
@@ -27,16 +27,6 @@
 
 ---
 
-<h2 align="left">📋 Website Preview:</h2>
-
-<p align="center"> 
-    <a href="https://dhawal-793-portfolio.onrender.com" target="_blank">
-    <img width="85%" src="https://user-images.githubusercontent.com/88284372/229130400-0eb4907c-9b23-4886-ae4b-b8161b86f66c.png" alt="Dhawal's Personal Portfolio">
-  </a>
-</p>
-
----
-
 <h2 align="left">📋 Features:</h2>
 
 ⚡️ Fully Responsive\
@@ -56,7 +46,7 @@
     <a href="mailto:vijaydhawal9000@gmail.com" target="blank">
         <img src="https://img.shields.io/badge/Gmail-D14836?style=plastic&logo=gmail&logoColor=white" alt="Gmail">
     </a>
-    <a href="https://linkedin.com/in/dhawal-vijayvargiya-188683214" target="blank">
+    <a href="https://linkedin.com/in/dhawal793" target="blank">
         <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=plastic&logo=linkedin&logoColor=white" alt="LinkedIn">
     </a>
     <a href="https://t.me/DV_793" target="_blank">
