@@ -43,8 +43,8 @@ const About = () => {
           <div className="text-gray-400 py-4 space-y-2 md:space-y-2 md:pt-8 lg:pt-12 font-semibold text-justify">
             <AnimatedWrapper>
               <p className="leading-tight">
-                Aspiring DevOps Engineer, based in Udaipur, India.
-                Currently working as DevOps Intern @ GKMIT Ltd. Udaipur.
+                Full Stack and DevOps Enthusiast, based in India.
+                Currently working as Jr. DevOps Engineer @ GKMIT Ltd. Udaipur.
               </p>
             </AnimatedWrapper>
             <AnimatedWrapper>
@@ -55,8 +55,7 @@ const About = () => {
             </AnimatedWrapper>
             <AnimatedWrapper>
               <p className="leading-tight">
-                DevOps Enthusuast, quick learner and Passionate coder,
-                currently pursuing Master's in Computer Applications at
+                Currently pursuing Master's in Computer Applications at
                 Geetanjali Institute of Technical Studies, Udaipur, (Rajasthan).
               </p>
             </AnimatedWrapper>
