@@ -33,7 +33,7 @@ const About = () => {
         </div>
         <div className="flex flex-col justify-center w-full px-2 xs: sm:px-12 md:px-4 lg:px-14 text-white ">
           <AnimatedWrapper animateFrom="bottom">
-            <h3 className="text-2xl xs:text-3xl  sm:text-4xl md:text-5xl lg:text-6xl font-semibold ">
+            <h3 className="text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-semibold md:py-2">
               Hi, I'm{" "}
               <span className="text-cyan-500 block xs:inline">
                 Dhawal Vijayvargiya
