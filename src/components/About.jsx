@@ -44,7 +44,7 @@ const About = () => {
             <AnimatedWrapper>
               <p className="leading-tight">
                 Full Stack and DevOps Enthusiast, based in India.
-                Currently working as Jr. DevOps Engineer @ GKMIT Ltd. Udaipur.
+                Currently working as Jr. DevOps Engineer @ Spark18.
               </p>
             </AnimatedWrapper>
             <AnimatedWrapper>
